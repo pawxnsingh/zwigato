@@ -1,0 +1,38 @@
+{
+  "name": "sat-shri-akal-react",
+  "version": "1.0.0",
+  "description": "This is Sat Shri Akal React by Pawan Singh",
+  "scripts": {
+    "start": "parcel lect1/index.html",
+    "build": "parcel build lect1/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawxnsingh/React.git"
+  },
+  "keywords": [
+    "Sat",
+    "Shri",
+    "Akal",
+    "React"
+  ],
+  "author": "Pawan Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawxnsingh/React/issues"
+  },
+  "homepage": "https://github.com/pawxnsingh/React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}

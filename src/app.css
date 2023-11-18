@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 140px;
+    /* background-color: green; */
+}
+
+.nav-container > ul{
+    display: flex;
+    margin-top: 24px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.nav-container > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.top-res-filter-button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-style: none;
+    background-color: #f0f0f0;
+}
+.top-res-filter-button:hover{
+    background-color: #716b6b;
+    color: white;
+}
+
+.restaurant-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;    
+}
+
+.res-card{
+    width: 200px;
+    height: 280px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+.res-card:hover{
+    box-shadow: 0px 1px 4px;  
+}
+
+.res-detail-container{
+    margin-left: 7px;
+    margin-top: 12px;
+}
+
+.img-container{
+    /* position: relative; */
+    width: 200px;
+    height: 180px;
+}
+
+.img-container img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.res-sub-text{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cuisine,.address{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top:3px ;
+}
+
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;    
+}
+
+.shimmer-card{
+    width: 200px;
+    height: 280px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.button{
+    padding: 0 16px;
+    margin: 0;
+    border-style: none;
+    background-color: #f0f0f0;
+
+}
+
+.utility-container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-box{
+    height: 20px;
+    border: 0.5px solid ;
+}
+.search-button{
+    padding: 3.4px 7px;
+    margin-left: -1px;
+    /* background-color: #f0f0f0; */
+    border: 0.5 solid black;
+}
+
+.user-card{
+    padding: 5px;
+    border: 1px solid black;
+}
